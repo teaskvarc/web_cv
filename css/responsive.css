@@ -1,0 +1,19 @@
+@media only screen and (min-width: 0px) and (max-width: 991px) {
+
+    .left-menu{
+
+        z-index: 999;
+    }
+    .user-header img{
+        margin-top: 40px!important;
+
+    }
+    .left-menu{
+        padding-top: 25px;
+    }
+    header{
+        min-height: 100px;
+    }
+
+
+}

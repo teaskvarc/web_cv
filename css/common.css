@@ -7,7 +7,13 @@
     margin-bottom: 15px;
 }
 
-
+.p-set
+{
+    padding-top:120px;
+    line-height:30px;
+    color:#fff;
+    font-size:16px;
+}
 
 
 /**
@@ -55,7 +61,7 @@ SIDE MENU
     font-size: 16px;
     display: block;
 }
-#side-menu ul li a:hover, #side-menu ul li a:focus, #side-menu ul li .active{
+#side-menu ul li a:hover, #side-menu ul li a:focus{
     background-color: #f2f2f2;
     color: #0085a1;
 }
@@ -89,6 +95,9 @@ Go to top
     background-color: #30ca97;
     border: none;
     display: none;
+}
+.back-to-top:hover{
+    background-color: #0085a1;
 }
 
 
