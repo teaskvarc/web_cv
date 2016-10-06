@@ -234,3 +234,26 @@ PORTFOLIO PAGE
 .pcard a:hover, .pcard a:focus{
     text-decoration: none;
 }
+
+/*************
+Cover Letter
+***************/
+.cover-letter h4{
+    font-weight: normal;
+    line-height: 20px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.cover-letter small{
+    font-size: 16px;
+    color: #0085a1;
+}
+.cover-letter h5{
+    font-size: 18px;
+}
+.cover-letter .name{
+    font-family: 'Pacifico', cursive;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #0085a1;
+}
