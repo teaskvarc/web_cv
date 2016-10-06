@@ -86,7 +86,7 @@ Section = about me
 .about-me, .card{
     background-color: #fff;
     padding: 40px;
-    border-bottom: 2px solid #30ca97;
+    border-bottom: 2px solid #e0e0e0;
     margin: 0 0 40px 0;
 }
 .about-me .icons, .card .material-icons{
@@ -177,4 +177,60 @@ Language
     font-size: 18px;
     margin: 15px 0px 5px 0px;
     padding: 0;
+}
+
+/****
+Work experience
+*****/
+
+.work h4, .education h4{
+
+    font-size: 20px;
+    text-transform: uppercase;
+    color:#0085a1;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+.work small, .education small{
+    font-size: 14px;
+    color: #757575;
+}
+.work p, .education p, .pcard p{
+    margin: 10px 0 0 0;
+    font-size: 14px;
+}
+
+/************
+PORTFOLIO PAGE
+***************/
+
+.pcard{
+    background-color: #fff;
+    border-bottom: 2px solid #e0e0e0;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+.pcard img{
+    width: 100%;
+}
+.pcard h2{
+    font-size: 24px;
+    margin: 30px 0 0 0;
+}
+.project-image{
+    overflow: hidden;
+    position: relative;
+    height: 250px;
+}
+.pcard p{
+    margin-bottom: 20px;
+}
+.pcard a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #0085a1;
+    text-transform: uppercase;
+}
+.pcard a:hover, .pcard a:focus{
+    text-decoration: none;
 }
