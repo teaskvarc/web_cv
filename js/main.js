@@ -72,3 +72,17 @@ $('a[href*=#]:not([href=#])').click(function() {
         }
     }
 });
+
+// One page scroll
+ $(function () {
+   $.srSmoothscroll({
+     // defaults
+     step: 55,
+     speed: 300,
+     ease: 'swing',
+     target: $('body'),
+     container: $(window)
+   })
+ })
+
+new WOW().init();
