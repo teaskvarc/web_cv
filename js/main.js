@@ -1,5 +1,3 @@
-new WOW().init();
-
 // SIDE MENU SCRIPTS
 
 $(document).ready(function () {
@@ -89,3 +87,4 @@ $('a[href*=#]:not([href=#])').click(function() {
    })
  });
 
+new WOW().init();
