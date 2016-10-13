@@ -14,6 +14,8 @@ $(document).ready(function () {
 });
 
 
+/* go to top */
+
 $(document).ready(function () {
    $(window).scroll(function () {
        if($(this).scrollTop() > 500){
@@ -42,7 +44,7 @@ $(document).ready(function () {
 $(window).load(function () {
     $('#loading-center').click(function () {
         $('#loading').fadeOut(500);
-    });
+    })
 });
 
 $(window).load(function () {
@@ -83,6 +85,6 @@ $('a[href*=#]:not([href=#])').click(function() {
      target: $('body'),
      container: $(window)
    })
- })
+ });
 
 new WOW().init();
