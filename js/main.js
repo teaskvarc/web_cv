@@ -1,3 +1,5 @@
+new WOW().init();
+
 // SIDE MENU SCRIPTS
 
 $(document).ready(function () {
@@ -52,10 +54,10 @@ $(window).load(function () {
 });
 
 $(window).load(function () {
-   //$('#loading').delay(2000).fadeOut(500);
+   $('#loading').delay(2000).fadeOut(500);
     $('#loading-center').click(function () {
-        $('#loading').fadeOut(500);
-    });
+        $('#loading').fadeOut(100);
+    })
 });
 
 
@@ -87,4 +89,3 @@ $('a[href*=#]:not([href=#])').click(function() {
    })
  });
 
-new WOW().init();
