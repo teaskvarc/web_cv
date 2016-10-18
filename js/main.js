@@ -38,28 +38,6 @@ $(document).ready(function () {
 
 });
 
-
-// Preloader
-
-$(window).load(function () {
-    $('#loading-center').click(function () {
-        $('#loading').fadeOut(500);
-    })
-});
-
-$(window).load(function () {
-   $('#loading').fadeOut(500);
-});
-
-$(window).load(function () {
-   $('#loading').delay(2000).fadeOut(500);
-    $('#loading-center').click(function () {
-        $('#loading').fadeOut(100);
-    })
-});
-
-
-
 $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
         || location.hostname == this.hostname) {
